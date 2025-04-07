@@ -14,6 +14,5 @@ export const login = async (data) => {
             error: true,
             e  
         }
-        
     }
 }
