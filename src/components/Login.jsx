@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Logo } from "./Logo";
-import { Input } from "./Input.jsx";
+import { Input } from "./Input";
 import { 
     emailValidateMessage,
     validateEmail,
@@ -10,7 +10,7 @@ import {
 
  import { useLogin } from '../shared/hooks'
 
- export const Login = ({ switchAuthHandler })=>{
+ export const Login = ({ switchAuthHandler }) => {
 
     const { login, isLoading } = useLogin()
  

@@ -12,11 +12,11 @@ export const Input = ({
     textArea,
 }) => {
 
-    const handleValueChange = () => {
+    const handleValueChange = (event) => {
         onChangeHandler(event.target.value, field);
     }
 
-    const handleInputBlur = () => {
+    const handleInputBlur = (event) => {
         onBlurHandler(event.target.value, field);   
     }
 

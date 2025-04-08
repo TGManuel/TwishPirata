@@ -28,6 +28,8 @@ export const useLogin = () => {
 
         localStorage.getItem('error', JSON.stringify(userDetails));
 
+        toast.success('Sesion iniciada correctamente');
+        
         navigate('/')
     }
     return {
